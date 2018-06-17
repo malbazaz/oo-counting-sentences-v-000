@@ -27,9 +27,7 @@ end
   end
 
   def count_sentences
-
 self.squeeze(".!?").split(/[.?!]/).size
-
 
   end
 end
